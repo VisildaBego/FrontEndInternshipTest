@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/glide.core.min.css">
+  <link rel="stylesheet" href="css/glide.theme.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <title>Grid Layout Example</title>
+</head>
+<body>
+  <!-- Grid Section -->
+  <div class="container">
+    <div class="item big-image">
+      <img src="http://via.placeholder.com/480x360" alt="Big Image">
+    </div>
+    <div class="item small-image-top">
+      <img src="http://via.placeholder.com/300x300" alt="Small Image Top">
+    </div>
+    <div class="item small-image-bottom">
+      <img src="http://via.placeholder.com/300x300" alt="Small Image Bottom">
+    </div>
+  </div>
+  <!-- Flexbox Sectio -->
+  <section class="section-flexbox">
+    <div class="card">
+      <h3>Tattoo supplies</h3>
+      <img src="http://via.placeholder.com/180x240" alt="Placeholder Image">
+      <button>Shop now</button>
+    </div>
+    <div class="card">
+      <h3>Body jewelry</h3>
+      <img src="http://via.placeholder.com/180x240" alt="Placeholder Image">
+      <button>Shop now</button>
+    </div>
+    <div class="card">
+      <h3>Piercing supplies</h3>
+      <img src="http://via.placeholder.com/180x240" alt="Placeholder Image">
+      <button>Shop now</button>
+    </div>
+    <div class="card">
+      <h3>Medical supplies</h3>
+      <img src="http://via.placeholder.com/180x240" alt="Placeholder Image">
+      <button>Shop now</button>
+    </div>
+    <div class="card">
+      <h3>Permanent makeup</h3>
+      <img src="http://via.placeholder.com/180x240" alt="Placeholder Image">
+      <button>Shop now</button>
+    </div>
+  </section>
+  <!-- Carousel -->
+  <section class="carousel">
+    <div class="glide">
+      <h2>NEW PRODUCTS</h2>
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide">
+              <img src="http://via.placeholder.com/300x300" alt="">
+              <h3>$499.99</h3>
+              <p>Rook Quill Rotary Tatto Machine - Cooper</p>
+          </li>
+          <li class="glide__slide">
+              <img src="http://via.placeholder.com/300x300" alt="">
+              <h3>$499.99</h3>
+              <p>Rook Quill Rotary Tatto Machine - Cooper</p>
+          </li>
+          <li class="glide__slide">
+              <img src="http://via.placeholder.com/300x300" alt="">
+              <h3>$499.99</h3>
+              <p>Rook Quill Rotary Tatto Machine - Cooper</p>
+          </li>
+          <li class="glide__slide">
+              <img src="http://via.placeholder.com/300x300" alt="">
+              <h3>$499.99</h3>
+              <p>Rook Quill Rotary Tatto Machine - Cooper</p>
+          </li>
+          <li class="glide__slide">
+              <img src="http://via.placeholder.com/300x300" alt="">
+              <h3>$499.99</h3>
+              <p>Rook Quill Rotary Tatto Machine - Cooper</p>
+          </li>
+          <li class="glide__slide">
+              <img src="http://via.placeholder.com/300x300" alt="">
+              <h3>$599.99</h3>
+              <p>Rook Quill Rotary Tatto Machine - Cooper</p>
+          </li>
+        </ul>
+      </div>
+      <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+        </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide">
+  </script>
+            <script src="carousel.js">
+              </script>
+</body>
+</html>
